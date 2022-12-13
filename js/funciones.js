@@ -97,7 +97,7 @@ function send() {
     var cod = document.getElementById("ordenar").value;
     var payment;
 
-    let codigo201 = 5;
+    let codigo201 = 25;
     let codigo411 = 13;
     let codigo230 = 48;
     let codigo21 = 26;
@@ -106,7 +106,7 @@ function send() {
 
 
     if(cod == 201 && cantidad <= codigo201) {
-        payment = 20 * cantidad;
+        payment = 25 * cantidad;
         Swal.fire("Pago a realizar: " + payment)
     } else if(cod == 411 && cantidad <= codigo411) {
         payment = 30 * cantidad;
