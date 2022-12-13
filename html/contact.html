@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Sportshop</title>
+</head>
+<body>
+    <div class="contact_form">
+        <div class="formulario">
+            <div class="icon">
+                <a href="../index.html"><i class="fa-sharp fa-solid fa-house"></i></a>
+            </div>
+            <div class="fecha">
+                <p id="day"></p>
+                <p id="month"></p>
+                <p id="year"></p>
+            </div>  
+               
+            <h1>Contactanos</h1>
+            <h3>Escríbenos para hacer tu pedido, lo tendras en tu casa</h3>
+                <form id="contactForm"> 
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Escriba su nombre">
+                  
+                    <label for="email">Email </label>
+                    <input type="email" id="email" name="email" placeholder="Escriba su correo">
+                    
+                    <label for="cantidad">Cantidad </label>
+                    <input type="number" id="cantidad" name="cantidad" placeholder="Escriba cantidad del producto">
+                  
+                    <label for="pedido">Pedido </label>
+                    <input type="text" id="pedido" name="pedido" placeholder="Escriba su pedido">     
+                    
+                    <p>Sexo
+                        <select name="combo">
+                            <option value="1">-</option>
+                            <option value="2">Hombre</option>
+                            <option value="3">Mujer</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Observacion del producto</label> 
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" placeholder="Deja aquí tu observacion..."></textarea> 
+                    </p>
+                    
+                    <p>
+                        <input type="file">
+                    </p>
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>        
+              </form>
+        </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" ></script>
+	<script src="../js/funciones.js" ></script>
+
+</body>
+</html>

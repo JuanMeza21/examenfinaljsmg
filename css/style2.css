@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+*{
+	font-family: 'Noto Sans', sans-serif;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+body{
+    background-size: 1700px;
+    background-color: #136364;
+}
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+table{
+	background-color: white;
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: black;
+	text-align: center;
+}
+th, td{
+    font-weight: 700;
+	padding: 20px;
+}
+thead{
+	background-color: #004445;
+	border-bottom: solid 5px #2C7873;
+	color: white;
+}
+tr:hover td{
+	background-color: #004445;
+	color: white;
+}
+#order {
+	padding: 10px;
+	margin: 20px;
+	background-color: #004445;
+	border-radius: 20px;
+}
+#product {
+	margin: 20px 20px 20px 20px;
+	background-color: #004445;
+	border-radius: 20px;
+}
+#img {
+	margin-top: 10px;
+    width: 100%;
+	height: 400px;
+    background: url("../img/sportshot.png") no-repeat center center/cover;
+    margin-bottom: 25px;
+}
+#ordenar, input {
+	font-size: 20px;
+	border-style: none;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+#order-two {
+	margin-left: 30px;
+	padding: 20px;
+	font-size: 25px;
+}
+input {
+	width: 60px;
+	border-style: none;
+	padding-left: 18px;
+}
+button {
+	border-radius: 20px;
+	border-style: none;
+	padding: 5px;
+	font-size: 25px;
+	margin-top: 10px;
+	cursor: pointer;
+}

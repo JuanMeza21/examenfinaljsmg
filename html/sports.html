@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <title>Sportshop</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+          <a href="../index.html" class="logo">SPORTSHOP</a>
+    
+          <ul class="menu">
+            <li class="opcion-menu">
+              <a href="../index.html" class="botones">Inicio</a>
+            </li>
+    
+            <li class="opcion-menu">
+              <a href="../html/sports.html" class="botones">Deportes</a>
+              <ul class="menu-vertical">
+                <li><a href="">Futbol</a></li>
+                <li><a href="#">Baloncesto</a></li>
+                <li><a href="#">Golf</a></li>
+                <li><a href="#">Volleyball</a></li>
+                <li id="tennis"><a href="#">Tennis</a></li>
+              </ul>
+            </li>
+    
+            <li class="opcion-menu">
+              <a href="../html/implements.html" class="botones">Implementos</a>
+            </li>
+    
+            <li class="opcion-menu">
+              <a href="../html/contact.html" class="botones">Contactanos</a>
+            </li>
+    
+            <li class="opcion-menu">
+              <a href="../html/login.html" class="botones login">Login</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <div id="img"></div>
+
+    <div id="product">
+        <h1>PRODUCTOS</h1>
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr >
+                <th>CODIGO</th>
+                <th>PRODUCTO</th>
+                <th>DEPORTE</th>
+                <th>EQUIPO-SELECCIÓN</th>
+                <th>CANTIDAD</th>
+                <th>CATEGORIA</th>
+                <th>SEXO</th>
+                <th>PRECIO</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>#201</td>
+            <td><img src="../img/atletico madrid.png" alt=""></td>
+            <td>Futbol</td>
+            <td>At. Madrid</td>
+            <td>5</td>
+            <td>10 - 15 años</td>
+            <td>Hombre/Mujer</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td>#411</td>
+            <td><img src="../img/lakers.png" alt=""></td>
+            <td>Baloncesto</td>
+            <td>Lakers</td>
+            <td>13</td>
+            <td>15 - 20 años</td>
+            <td>Hombre/Mujer</td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td>#230</td>
+            <td><img src="../img/balltennis.png" alt=""></td>
+            <td>Tennis</td>
+            <td>-</td>
+            <td>48</td>
+            <td>-</td>
+            <td>-</td>
+            <td>$5</td>
+        </tr>
+        <tr>
+            <td>#21</td>
+            <td><img src="../img/BaseballBat.png" alt=""></td>
+            <td>Baseball</td>
+            <td>-</td>
+            <td>26</td>
+            <td>-</td>
+            <td>-</td>
+            <td>$7</td>
+        </tr>
+        <tr>
+            <td>#235</td>
+            <td><img src="../img/camisetabaseball.png" alt=""></td>
+            <td>Baseball</td>
+            <td>Angeles Dogers</td>
+            <td>7</td>
+            <td>20 - 30 años</td>
+            <td>Hombre</td>
+            <td>$15</td>
+        </tr>
+        <tr>
+            <td>#145</td>
+            <td><img src="../img/colombia.png" alt=""></td>
+            <td>Futbol</td>
+            <td>Selección colombia</td>
+            <td>3</td>
+            <td>15 - 25 años</td>
+            <td>Mujer</td>
+            <td>$20</td>
+        </tr>
+    </table>
+
+    <div id="order">
+        <h1>ORDENAR PRODUCTO</h1>
+
+        <div id="order-two">
+            <label for="">Ingrese codigo del producto: </label>
+            <select id="ordenar" name="ordenar"">
+                <option>201</option>
+                <option>411</option>
+                <option>230</option>
+                <option>21</option>
+                <option>235</option>
+                <option>145</option>
+            </select>
+            <br>
+            <label for="">Ingrese cantidad: </label>
+            <input type="number" id="number">
+            <br>
+            <button onclick="send()">Enviar</button>
+        </div>
+
+    </div>
+
+    <script src="../js/funciones.js"></script>
+    <script src="../js/sweetalert2.all.min.js"></script>
+</body>
+</html>

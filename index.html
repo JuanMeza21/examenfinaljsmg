@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportshop</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body onload="loadMainPage()">
+  <header class="header">
+    <nav class="nav">
+      <a href="./index.html" class="logo">SPORTSHOP</a>
+
+      <ul class="menu">
+        <li class="opcion-menu">
+          <a href="./index.html" class="botones">Inicio</a>
+        </li>
+
+        <li class="opcion-menu">
+          <a href="./html/sports.html" class="botones">Deportes</a>
+          <ul class="menu-vertical">
+            <li><a href="">Futbol</a></li>
+            <li><a href="#">Baloncesto</a></li>
+            <li><a href="#">Golf</a></li>
+            <li><a href="#">Volleyball</a></li>
+            <li id="tennis"><a href="#">Tennis</a></li>
+          </ul>
+        </li>
+
+        <li class="opcion-menu">
+          <a href="./html/implements.html" class="botones">Implementos</a>
+        </li>
+
+        <li class="opcion-menu">
+          <a href="./html/contact.html" class="botones">Contactanos</a>
+        </li>
+
+        <li class="opcion-menu">
+          <a href="./html/login.html" class="botones login">Login</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <header class="barra-busqueda">
+    <div class="field" id="searchform">
+      <input type="search" id="searchterm" placeholder="Bucar producto..." />
+      <button type="button" id="search">Buscar</button>
+    </div>
+  </header>
+
+  <h1>NOVEDADES</h1>
+  <div class="novedades" >
+    <div id="cuadro-uno">
+      <center><img src="./img/camisetabaseball.png" alt="" /></center>
+      <h3>CAMISETA - BASEBALL</h3>
+      <b><p>PRECIO: 4$</p></b>
+    </div>
+
+    <div id="cuadros">
+      <center><img src="./img/atletico madrid.png" alt="" /></center>
+      <h3>CAMISETA - FUTBOL</h3>
+      <b><p>PRECIO: 5$</p></b>
+    </div>
+
+    <div id="cuadros">
+      <center><img src="./img/balltennis.png" alt="" /></center>
+      <h3>PELOTA - TENNIS</h3>
+      <b><p>PRECIO: 2$</p></b>
+    </div>
+
+    <div id="cuadro-cuatro">
+      <center><img src="./img/colombia.png" alt="" /></center>
+      <h3>CAMISETA - FUTBOL</h3>
+      <b><p>PRECIO: 6$</p></b>
+    </div>
+  </div>
+
+  <section class="elementos-cuadro">
+    <div class="content">
+      <h2>ELEMENTOS DEPORTIVOS</h2>
+      <p>
+        Gran calidad de ropa,calzado y elementos de cada deporte para mayor comodidad
+        al cliente. Todo lo que necesitas para practicar tu deporte favorito de la mejor
+        manera, y sin preocupaciones. Unite a esta gran comunidad y empieza el camino
+        deportivo.
+      </p>
+    </div>
+  </section>
+
+  <div class="novedades">
+    <div id="acceso-directo-one">
+      <center><a href="#">BALONES Y PELOTAS</a></center>
+    </div>
+
+    <div id="acceso-directo">
+      <center><a href="#">CAMISETAS</a></center>
+    </div>
+
+    <div id="acceso-directo">
+      <center><a href="#">UNIFORMES</a></center>
+    </div>
+
+    <div id="acceso-directo-four">
+      <center><a href="./html/implements.html">IMPLEMENTOS</a></center>
+    </div>
+  </div>
+
+  <section class="porcentaje-cuadro">
+    <div class="content">
+     <h2>COMPRA TU PRIMER PRODUCTO Y CONSIGUE UN DESCUENTO FENOMENAL</h2>
+     <h1>20%</h1>
+    </div>
+  </section>
+
+  <div class="informacion">
+    <div class="informacion-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>DEPORTES</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Futbol</a>
+        </li>
+        <li>
+          <a href="#">Baloncesto</a>
+        </li>
+        <li>
+          <a href="#">Golf</a>
+        </li>
+        <li>
+          <a href="#">Baseball</a>
+        </li>
+        <li>
+         <a href="#">Volleyball</a>
+        </li>
+        <li>
+          <a href="#">Futbol americano</a>
+        </li>
+        <li>
+          <a href="#">Tennis</a>
+        </li>
+      </ul>
+      <ul>
+       <li>
+          <a href="#">
+            <h3>INFORMACIÓN DE LA EMPRESA</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Acera de deporshop</a>
+        </li>
+        <li>
+          <a href="#">Servicio</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>SIGUENOS EN LAS REDES</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Facebook</a>
+        </li>
+        <li>
+          <a href="#">Twitter</a>
+        </li>
+        <li>
+          <a href="#">Instagram</a>
+        </li>
+        <li>
+          <a href="#">Gmail</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="./js/funciones.js"></script>
+  <script src="./js/sweetalert2.all.min.js"></script>
+  <script src="./js/jquery-3.6.1.min.js"></script>
+  <script src="./js/jquery.validate.min.js"></script>
+</body>
+</html>
