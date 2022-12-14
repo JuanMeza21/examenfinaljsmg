@@ -6,7 +6,7 @@
 	padding: 0;
 }
 .header {
-	background-color: #004445;
+	background-color: #00f8fc;
 	height: 80px;
 	position: fixed;
 	width: 100%;
@@ -47,7 +47,8 @@
 body {
 	color: #fff;
 	font-size: 16px;
-	background-color: #004445;
+	background: rgb(77,34,195);
+	background: linear-gradient(0deg, rgba(77,34,195,1) 0%, rgba(255,255,255,1) 100%);
 }
 a{
 	color: #ffffff;
